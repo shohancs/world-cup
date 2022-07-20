@@ -15,7 +15,7 @@ body{
         Header-section Css code start
 ***********************************************/
 .container {
-    padding: 40px 68px; /*40px 86px*/
+    padding: 40px 68px;
 }
 
 .header-section {
@@ -73,39 +73,6 @@ body{
     position: absolute;
     right: 85px;
 }
-
-/* animation part start*/
-/* @keyframes sliding {
-    0%{
-        background-color: white;
-        left: 0;
-        top: 0;
-        transform: scale(1);
-    }
-    95%{
-        top: 150px;
-        background-color: white;
-        transform: scale(1);
-    } 
-    100%{
-        background-color: white;
-        left: 820px;
-        top: 500px;
-    }
-}
-
-.ball img{
-    width: 100px;
-    height: 100px;
-    background-color: white;
-    border-radius: 50%;
-    animation: sliding 2s ease-in-out 2  alternate;
-    animation-play-state: running;
-    position: absolute;
-    bottom: 520px;
-} */
-/* animation part end*/
-
 /**********************************************
         Header-section Css code end
 ***********************************************/
@@ -127,7 +94,7 @@ aside.menu-bar {
     position: sticky;
     top: 4em;
     gap: 20px;
-    background-color: #161616;
+    background-color: #d49b7e;
     padding: 20px;
     border-radius: 10px;
 }
@@ -136,7 +103,7 @@ aside.menu-bar {
     font-weight: 500;
     font-size: 16px;
     color: #161616;
-    border: 1px solid #161616;
+    border: 1px solid #fff;
     padding: 14px 20px;
     background: #FFFFFF;
     border-radius: 10px;
@@ -145,24 +112,26 @@ aside.menu-bar {
 }
 
 .aside-btn:hover{
-    background-color: #DD0000;
-    border: 1px solid #DD0000;
+    background-color: #253949;
+    border: 1px solid #253949;
     color: #fff;
 }
 
 #blog{
-    background-color: #DD0000;
+    background-color: #253949;
+    border: 1px solid #253949;
     color: #FFFFFF;
 }
 
 #blogs{
-    background-color:darkorange;
+    background-color:#814355;
+    border: 1px solid #814355;
     color: #fff;
 }
 #blog:hover,
 #blogs:hover{
     color: #161616;
-    border: 1px solid #161616;
+    border: 1px solid #fff;
     background: #FFFFFF;
 }
 
@@ -339,3 +308,4 @@ nav li a:hover{
 /**********************************************
         Footer-part Css code end
 ***********************************************/
+

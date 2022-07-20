@@ -17,11 +17,17 @@ body{
 .container {
     padding: 40px 68px; /*40px 86px*/
 }
+
 .header-section {
     display: flex;
     background: #161616;
     border-radius: 30px;
     padding: 111px 71px;
+    transition: 0.2s ease;
+}
+
+.header-section:hover .heading-left h1{
+    color: #faefae;
 }
 .heading-left, .heading-right{
     width: 50%;
@@ -31,6 +37,7 @@ body{
     font-size: 70px;
     color: #FFFFFF;
     line-height: 80px;
+    transition: 0.2s ease;
 }
 .heading-left p{
     font-weight: 400;
@@ -68,7 +75,7 @@ body{
 }
 
 /* animation part start*/
-@keyframes sliding {
+/* @keyframes sliding {
     0%{
         background-color: white;
         left: 0;
@@ -96,7 +103,7 @@ body{
     animation-play-state: running;
     position: absolute;
     bottom: 520px;
-}
+} */
 /* animation part end*/
 
 /**********************************************

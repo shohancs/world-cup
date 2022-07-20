@@ -1,0 +1,69 @@
+/**********************************************
+               Common Style
+***********************************************/
+*{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/**********************************************
+        Header-section Css code start
+***********************************************/
+.container{
+    padding: 40px 102px;
+}
+.header-section{
+    display: flex;
+    background: #161616;
+    border-radius: 30px;
+    padding: 71px;
+}
+.heading-left, .heading-right{
+    width: 50%;
+}
+.heading-left h1{
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+    line-height: 80px;
+}
+.heading-left p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+.heading-btn{
+    background: #DD0000;
+    border: 2px solid #DD0000;
+    border-radius: 5px;
+    padding: 14px 25px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    transition: 0.3s ease-in-out;
+}
+
+.heading-btn .fa-arrow-right{
+    margin-left: 5px;
+}
+
+.heading-btn:hover{
+    background: #fff;
+    border: 2px solid #DD0000;
+    color: #DD0000;
+}
+
+.banner-image img {
+    width: 559px;
+    height: 600px;
+    position: absolute;
+}
+
+/**********************************************
+        Header-section Css code end
+***********************************************/

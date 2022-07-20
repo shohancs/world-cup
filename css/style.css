@@ -67,3 +67,76 @@ body{
 /**********************************************
         Header-section Css code end
 ***********************************************/
+
+/**********************************************
+        news-section Css code start
+***********************************************/
+.news-section{
+    display: flex;
+}
+.side-menu{
+
+}
+
+.card-part{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.card{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.card-image{
+    
+}
+
+.card-image img{
+
+}
+
+.card-content{
+    padding: 20px;
+}
+
+.card-btn{
+    font-weight: 500;
+    font-size: 16px;
+    color: #161616;
+    border-radius: 5px;
+    border: 1px solid#161616;
+    padding: 5px 20px;
+    transition: 0.2s ease-in-out;
+}
+
+.card-btn:hover{
+    background: #DD0000;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.card-content h2{
+    font-weight: 600;
+    font-size: 18px;
+    color: #161616;
+    margin-bottom: 5px;
+}
+
+.servics{
+    display: flex;
+    gap: 25px;
+}
+
+.servics p{
+    color: red;
+    font-size: 16px;
+    color: rgba(22, 22, 22, 0.7);
+}
+
+.fa-clock, .fa-message{
+    margin-right: 10px;
+}
+/**********************************************
+        news-section Css code end
+***********************************************/

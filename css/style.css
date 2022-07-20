@@ -198,6 +198,51 @@ aside.menu-bar {
     color: #DD0000;
     
 }
+
+/* Match.html part start */
+.card-parts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.live-card{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 41px 25px;
+    text-align: center;
+}
+
+.card-images{
+    display: flex;
+}
+
+#vs {
+    position: relative;
+    color: #161616;
+    font-weight: 700;
+    font-size: 16px;
+    bottom: 20px;
+    margin: 0 13px;
+}
+.card-contents{
+    padding: ;
+}
+.card-contents h2{
+    font-weight: 600;
+    font-size: 20px;
+    color: #161616;
+    margin-bottom: 5px;
+    margin: 23px 0px;
+}
+.card-contents p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #4D4D4D;
+}
+
+/* Match.html part end */
+
 /**********************************************
         news-section Css code end
 ***********************************************/
@@ -252,12 +297,6 @@ nav li a:hover{
 }
 #social-clr.fa-linkedin-in:hover{
     color:  #0072b1;
-}
-.list-part{
-
-}
-.social-item{
-
 }
 /**********************************************
         Footer-part Css code end

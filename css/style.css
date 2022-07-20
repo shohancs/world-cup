@@ -200,6 +200,7 @@ aside.menu-bar {
     color: #FFFFFF;
     transition: 0.3s ease-in-out;
     margin-left: 44%;
+    display: none;
 }
 
 .hide-btn:hover{
@@ -307,5 +308,291 @@ nav li a:hover{
 }
 /**********************************************
         Footer-part Css code end
+***********************************************/
+
+/**********************************************
+           Media-quert part start
+***********************************************/
+
+/* Mobile Device */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .container {
+        padding: 40px 21px 10px;
+    }
+
+    .header-section {
+        border-radius: 14px;
+        padding: 50px 41px 672px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .heading-left, .heading-right {
+        width: 100%;
+    }
+
+    .heading-left h1 {
+        font-size: 29px;
+        line-height: 45px;
+        margin-bottom: -35px;
+    }
+
+    .heading-left p {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        color: #ccc;
+    }
+
+    .banner-image img {
+        right: 29px;
+        width: 85%;
+        top: 46%;
+    }
+
+    .news-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .side-menu {
+        max-width: 100%;
+    }
+
+    aside.menu-bar {
+        background-color: transparent;
+    }
+
+    .aside-btn {
+        border: 1px solid #161616;
+    }
+
+    .card-part {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .card-image img{
+        width: 100%;
+    }
+
+    .card-content {
+        padding: 24px;
+    }
+
+    .hide-btn {
+        display: none;
+    }
+
+    footer {
+        padding: 54px 100px;
+    }
+
+    footer h1 {
+        padding-bottom: 16%;
+    }
+    
+    hr {
+        width: 100%;
+    }
+
+    .list-part nav ul {
+        flex-direction: column;
+    }
+    
+}
+
+
+/* Ipads, Tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        padding: 40px 38px;
+    }
+
+    .header-section {
+        padding: 111px 33px;
+    }
+
+    .banner-image img {
+        width: 42%;
+        height: 593px;
+        right: 49px;
+        bottom: 300px;
+    }
+
+    .heading-left h1 {
+        font-size: 48px;
+        line-height: 70px;
+    }
+
+    .heading-left p {
+        padding: 27px 0px 49px;
+    }
+
+    .news-section {
+        flex-direction: column;
+    }
+
+    .side-menu {
+        width: 100%;
+    }
+
+    aside.menu-bar {
+        flex-direction: row;
+        background-color: transparent;
+        position: none;
+    }
+
+    .aside-btn {
+        border: 1px solid #161616;
+        padding: 7px 77px;
+    }
+
+    .card-part {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+
+    nav li a {
+        font-size: 10px;
+    }
+
+    nav li {
+        margin: 23px 0px 0px 29px;
+    }
+
+    footer {
+        padding: 52px;
+    }
+
+}
+
+/* Small Screens, Laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        padding: 40px 34px;
+    }
+
+    .heading-left h1 {
+        font-size: 43px;
+    }
+
+    .header-section {
+        padding: 111px 37px;
+    }
+
+    .banner-image img {
+        width: 42%;
+        height: 577px;
+        right: 48px;
+        bottom: 221px;
+    }
+
+    .news-section {
+        flex-direction: column;
+    }
+
+    .side-menu {
+        width: 100%;
+    }
+
+    aside.menu-bar {
+        flex-direction: row;
+        background-color: transparent;
+        position: none;
+    }
+
+    .aside-btn {
+        border: 1px solid #161616;
+        padding: 7px 77px;
+    }
+
+    .card-part {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+
+    .card-image img{
+        width: 100%;
+    }
+
+    nav li a {
+        font-size: 10px;
+    }
+
+    nav li {
+        margin: 23px 0px 0px 29px;
+    }
+
+    footer {
+        padding: 52px;
+    }
+
+}
+
+/* Desktops, Large screen */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .container {
+        padding: 40px 34px;
+    }
+
+    .heading-left h1 {
+        font-size: 43px;
+    }
+
+    .header-section {
+        padding: 111px 37px;
+    }
+
+    .banner-image img {
+        width: 42%;
+        height: 577px;
+        right: 48px;
+        bottom: 529px;
+    }
+
+    .news-section {
+        flex-direction: column;
+    }
+
+    .side-menu {
+        width: 100%;
+    }
+
+    aside.menu-bar {
+        flex-direction: row;
+        background-color: transparent;
+        position: none;
+    }
+
+    .aside-btn {
+        border: 1px solid #161616;
+        padding: 7px 116px;
+    }
+
+    .card-part {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+
+    .card-image img{
+        width: 100%;
+    }
+
+    nav li a {
+        font-size: 10px;
+    }
+
+    nav li {
+        margin: 23px 0px 0px 29px;
+    }
+
+    footer {
+        padding: 52px;
+    }
+
+}
+/**********************************************
+           Media-quert part end
 ***********************************************/
 

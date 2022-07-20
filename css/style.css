@@ -29,9 +29,11 @@ body{
 .header-section:hover .heading-left h1{
     color: #faefae;
 }
+
 .heading-left, .heading-right{
     width: 50%;
 }
+
 .heading-left h1{
     font-weight: 700;
     font-size: 70px;
@@ -39,6 +41,7 @@ body{
     line-height: 80px;
     transition: 0.2s ease;
 }
+
 .heading-left p{
     font-weight: 400;
     font-size: 16px;
@@ -46,6 +49,7 @@ body{
     padding: 61px 0px;
     text-align: justify;
 }
+
 .heading-btn{
     background: #DD0000;
     border: 2px solid #DD0000;
@@ -85,9 +89,11 @@ body{
     gap: 18px;
     padding-bottom: 80px;
 }
+
 .side-menu {
     max-width: 50%;
 }
+
 aside.menu-bar {
     display: flex;
     flex-direction: column;
@@ -131,7 +137,7 @@ aside.menu-bar {
 #blog:hover,
 #blogs:hover{
     color: #161616;
-    border: 1px solid #fff;
+    border: 1px solid #814355;
     background: #FFFFFF;
 }
 
@@ -167,6 +173,7 @@ aside.menu-bar {
     color: #fff;
     border-radius: 5px;
 }
+
 .card-content h2{
     font-weight: 600;
     font-size: 18px;
@@ -207,7 +214,6 @@ aside.menu-bar {
     background: #fff;
     border: 2px solid #DD0000;
     color: #DD0000;
-    
 }
 
 /* Match.html part start */
@@ -236,6 +242,7 @@ aside.menu-bar {
     bottom: 20px;
     margin: 0 13px;
 }
+
 .card-contents h2{
     font-weight: 600;
     font-size: 20px;
@@ -243,12 +250,12 @@ aside.menu-bar {
     margin-bottom: 5px;
     margin: 23px 0px;
 }
+
 .card-contents p{
     font-weight: 400;
     font-size: 16px;
     color: #4D4D4D;
 }
-
 /* Match.html part end */
 
 /**********************************************
@@ -262,6 +269,7 @@ footer{
     background: #161616;
     padding: 100px;
 }
+
 footer h1{
     font-weight: 600;
     font-size: 40px;
@@ -269,10 +277,12 @@ footer h1{
     color: #fff;
     padding-bottom: 4%;
 }
+
 hr{
     width: 80%;
     margin: 0px auto;
 }
+
 nav ul {
     display: flex;
     align-items: center;
@@ -297,12 +307,15 @@ nav li a:hover{
 #social-clr.fa-facebook-f:hover{
     color:  #3b5998;
 }
+
 #social-clr.fa-twitter:hover{
     color: #00acee;
 }
+
 #social-clr.fa-instagram:hover{
     color: #F7CB4E;
 }
+
 #social-clr.fa-linkedin-in:hover{
     color:  #0072b1;
 }
@@ -465,6 +478,10 @@ nav li a:hover{
         padding: 52px;
     }
 
+    .hide-btn {
+        display: inline;
+    }
+
 }
 
 /* Small Screens, Laptops */
@@ -527,6 +544,7 @@ nav li a:hover{
     footer {
         padding: 52px;
     }
+    
 
 }
 

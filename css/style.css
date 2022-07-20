@@ -3,6 +3,8 @@
 ***********************************************/
 *{
     text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -15,11 +17,11 @@ body{
 .container {
     padding: 40px 86px;
 }
-.header-section{
+.header-section {
     display: flex;
     background: #161616;
     border-radius: 30px;
-    padding: 71px;
+    padding: 111px 71px;
 }
 .heading-left, .heading-right{
     width: 50%;
@@ -34,7 +36,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
-    padding-bottom: 30px;
+    padding: 61px 0px;
     text-align: justify;
 }
 .heading-btn{
@@ -73,8 +75,11 @@ body{
 ***********************************************/
 .news-section{
     display: flex;
-    gap: 19px;
+    gap: 25px;
     padding-bottom: 80px;
+}
+.side-menu {
+    max-width: 50%;
 }
 aside.menu-bar {
     display: flex;
@@ -99,14 +104,32 @@ aside.menu-bar {
     text-align: center;
 }
 
+.aside-btn:hover{
+    background-color: #DD0000;
+    border: 1px solid #DD0000;
+    color: #fff;
+}
+
 #blog{
     background-color: #DD0000;
     color: #FFFFFF;
 }
+
+#blogs{
+    background-color:darkorange;
+    color: #fff;
+}
+#blog:hover,
+#blogs:hover{
+    color: #161616;
+    border: 1px solid #161616;
+    background: #FFFFFF;
+}
+
 .card-part{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 19px;
+    gap: 22px;
 }
 
 .card{
@@ -132,12 +155,14 @@ aside.menu-bar {
     background: #DD0000;
     border: 1px solid #fff;
     color: #fff;
+    border-radius: 5px;
 }
 .card-content h2{
     font-weight: 600;
     font-size: 18px;
     color: #161616;
     margin-bottom: 5px;
+    margin: 23px 0px;
 }
 
 .servics{
@@ -164,7 +189,7 @@ aside.menu-bar {
     font-size: 18px;
     color: #FFFFFF;
     transition: 0.3s ease-in-out;
-    margin-left: 50%;
+    margin-left: 44%;
 }
 
 .hide-btn:hover{
@@ -175,4 +200,65 @@ aside.menu-bar {
 }
 /**********************************************
         news-section Css code end
+***********************************************/
+
+/**********************************************
+        Footer-part Css code start
+***********************************************/
+footer{
+    background: #161616;
+    padding: 100px;
+}
+footer h1{
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 4%;
+}
+hr{
+    width: 80%;
+    margin: 0px auto;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav li {
+    list-style: none;
+    margin: 35px 0px 0px 29px;
+}
+
+nav li a{
+    font-weight: 600;
+    font-size: 16px;
+    color: #B9B9B9;
+}
+
+nav li a:hover{
+    color: brown;
+}
+
+#social-clr.fa-facebook-f:hover{
+    color:  #3b5998;
+}
+#social-clr.fa-twitter:hover{
+    color: #00acee;
+}
+#social-clr.fa-instagram:hover{
+    color: #F7CB4E;
+}
+#social-clr.fa-linkedin-in:hover{
+    color:  #0072b1;
+}
+.list-part{
+
+}
+.social-item{
+
+}
+/**********************************************
+        Footer-part Css code end
 ***********************************************/
